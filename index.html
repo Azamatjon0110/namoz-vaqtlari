@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Namoz vaqtlari</title>
+</head>
+<body>
+  <div class="body-bg-img"></div>
+  <section class="prayer-time-box">
+    <div class="container">
+      <div class="prayer-title-box text-center  text-white mb-4">
+        <h1 class="prayer-title">NAMOZ VAQTLARI</h1>
+        <h2 class="region">TOSHKENT</h2>
+      </div>
+      <div class="box w-100 mx-auto px-5 py-4 rounded-3 text-white">
+        <div class="wrapper mb-4 d-flex justify-content-between align-items-center">
+          <div class="">
+            <h3 class="week-day mb-0">Dushanba</h3>
+          </div>
+          <form class="js-form" action="#">
+            <select class="js-input-region">
+              <option value="Toshkent" selected>Toshkent</option>
+              <option value="Andijon">Andijon</option>
+              <option value="Buxoro">Buxoro</option>
+              <option value="Farg'ona">Farg'ona</option>
+              <option value="Jizzax">Jizzax</option>
+              <option value="Namangan">Namangan</option>
+              <option value="Navoiy">Navoiy</option>
+              <option value="Qarshi">Qashqadaryo</option>
+              <option value="Nukus">Qoraqalpog'iston</option>
+              <option value="Samarqand">Samarqand</option>
+              <option value="Guliston">Sirdaryo</option>
+              <option value="Termiz">Surxondaryo</option>
+              <option value="Xiva">Xorazm</option>
+            </select>
+          </form>
+          <div class="wrap">
+            <button class="btn btn-dark btn-day" type="button">Day</button>
+            <button class="btn btn-dark btn-week" type="button">Week</button>
+            <button class="btn btn-dark btn-month" type="button">Month</button>
+          </div>
+        </div>
+        <ul class="list-unstyled text-white w-100 time-list">
+
+        </ul>
+        <table class="js-table text-center w-100 d-none">
+          <thead class="mb-3">
+            <tr>
+              <th class="th-w" colspan="1">Hafta kuni</th>
+              <th class="th-w" colspan="1">Bomdod</th>
+              <th class="th-w" colspan="1">Quyosh chiqishi</th>
+              <th class="th-w" colspan="1">Peshin</th>
+              <th class="th-w" colspan="1">Asr</th>
+              <th class="th-w" colspan="1">Shom</th>
+              <th class="th-w" colspan="1">Xufton</th>
+              <th class="th-w" colspan="1">Sana</th>
+            </tr>
+          </thead>
+          <tbody class="table-body">
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <template class="time-prayer">
+    <li class="list-item d-flex justify-content-between text-center row mb-3">
+      <div class="d-flex justify-content-center" >
+        <p class="date mb-3">11/22/20022</p>
+      </div>
+      <div class="col-2">
+        <div class="namoz-vaqti-box w-100 py-3 rounded-2 d-inline-block">
+          <p class="mb-2 pb-2 border-bottom">Bomdod</p>
+          <div class="prayer-time-wrap d-flex flex-column align-items-center justify-content-center rounded-pill">
+            <p class="bomdod-time mb-0">22.00</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="namoz-vaqti-box w-100 py-3 rounded-2 d-inline-block">
+          <p class="mb-2 pb-2 border-bottom">Quyosh chiqishi</p>
+          <div class="prayer-time-wrap d-flex flex-column align-items-center justify-content-center rounded-pill">
+            <p class="sun-rise mb-0">22.00</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="namoz-vaqti-box w-100 py-3 rounded-2 d-inline-block">
+          <p class="mb-2 pb-2 border-bottom">Peshin</p>
+          <div class="prayer-time-wrap d-flex flex-column align-items-center justify-content-center rounded-pill">
+            <p class="peshin-time mb-0">22.00</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="namoz-vaqti-box w-100 py-3 rounded-2 d-inline-block">
+          <p class="mb-2 pb-2 border-bottom">Asr</p>
+          <div class="prayer-time-wrap d-flex flex-column align-items-center justify-content-center rounded-pill">
+            <p class="asr-time mb-0">22.00</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="namoz-vaqti-box w-100 py-3 rounded-2 d-inline-block">
+          <p class="mb-2 pb-2 border-bottom">Shom</p>
+          <div class="prayer-time-wrap d-flex flex-column align-items-center justify-content-center rounded-pill">
+            <p class="shom-time mb-0">22.00</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="namoz-vaqti-box w-100 py-3 rounded-2 d-inline-block">
+          <p class="mb-2 pb-2 border-bottom">Xufton</p>
+          <div class="prayer-time-wrap d-flex flex-column align-items-center justify-content-center rounded-pill">
+            <p class="hufton-time mb-0">22.00</p>
+          </div>
+        </div>
+      </div>
+    </li>
+  </template>
+
+  <template class="table-temp">
+    <tr>
+      <td class="xafta-kuni">The table body</td>
+      <td class="bomdod-oylik">The table body</td>
+      <td class="quyosh-chiqishi-oylik">The table body</td>
+      <td class="peshin-oylik">The table body</td>
+      <td class="asr-oylik">The table body</td>
+      <td class="shom-oylik">The table body</td>
+      <td class="xufton-oylik">The table body</td>
+      <td class="oy-sanasi">The table body</td>
+    </tr>
+  </template>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>

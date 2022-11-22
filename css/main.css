@@ -1,0 +1,59 @@
+.body-bg-img{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("/images/367044.jpg");
+}
+
+.prayer-time-box{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  padding-bottom: 100px;
+  z-index: 2;
+  background-color: rgb(0, 0, 0, 0.7);
+}
+
+.prayer-title-box{
+  padding-top: 140px;
+  font-family: 'Lobster', cursive;
+}
+.box{
+  max-width: 1000px;
+  background-color: rgb(240, 255, 240, 0.2);
+}
+
+.js-input-region{
+  width: 100%;
+  max-width: 450px;
+  padding: 10px 15px 10px 15px;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: #f9fafb;
+  background-color: rgba(20, 22, 43, 0.5843137255);
+  border: none;
+  border-radius: 10px;
+}
+.namoz-vaqti-box{
+  background-color: rgb(0, 0, 0, 0.1);
+}
+
+.prayer-time-wrap{
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  color: #000;
+  background-color: #fff;
+}
+
+.th-w{
+  width: 200px;
+  margin-bottom: 24px;
+}
